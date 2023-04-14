@@ -1,0 +1,15 @@
+/* Reset default margin and padding for all elements */
+body,
+h1,
+p,
+button,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}

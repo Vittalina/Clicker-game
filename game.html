@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 id="level-display">Level 0</h1>
+        <span class="container__nickname-display" id="nickname-display"
+          >Nickname</span
+        >
+        <div class="container__level-display">
+          Clicks: <span id="clicks-display">0</span>
+        </div>
+        <button class="container__clickBtn" id="clickBtn">Click me!</button>
+        <div class="container__target-display" id="target-display">
+          Target: <span id="target-number">10</span>
+        </div>
+        <div class="container__message-display" id="message-display"></div>
+        <div class="container__pokemon-display" id="pokemon-display">
+          <img
+            class="container__pokemon-image"
+            id="pokemon-image"
+            src=""
+            alt="Pokemon"
+          />
+        </div>
+        <div class="container__score-display" id="score-display">
+          Score: <span id="score">0</span>
+        </div>
+        <div class="container__error-display" id="error-container"></div>
+        <button class="container__resetBtn" id="resetBtn">Reset</button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.js"></script>
+      <script src="js/game.js"></script>
+    </main>
+  </body>
+</html>

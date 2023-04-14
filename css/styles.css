@@ -1,0 +1,153 @@
+/* REGISTRATION */
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 2px solid #ffcb05;
+  border-radius: 10px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form__button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #ffdb58;
+}
+/* GAME */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e0e0e0;
+  position: relative;
+}
+
+.container__level-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffcb05;
+  text-align: center;
+}
+.container__nickname-display {
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.container__clicks-display {
+  font-size: 18px;
+  color: #333;
+}
+
+.container__clickBtn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #ffcb05;
+  color: #333;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.container__clickBtn:hover {
+  background-color: #ffd700;
+  transform: scale(1.05);
+}
+.container__clickBtn:active {
+  background-color: #ffaa00;
+  transform: scale(0.95);
+}
+.container__clickBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.container__target-display {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.container__message-display {
+  font-size: 24px;
+  color: #ff0000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container__pokemon-display {
+  margin-top: 20px;
+}
+
+.container__pokemon-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+.container__score-display {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+.container__error-display {
+  font-size: 24px;
+  color: #ff0000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container__resetBtn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.container__resetBtn:hover {
+  transform: scale(1.05);
+}
+.container__resetBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

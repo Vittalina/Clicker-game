@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <form class="form">
+      <label class="form__label">
+        Nickname
+        <input
+          class="form__input"
+          type="text"
+          name="nickname"
+          pattern="[A-Za-z0-9_]{1,}"
+          minlength="3"
+          maxlength="20"
+          required
+        />
+      </label>
+
+      <label class="form__label">
+        Name
+        <input
+          class="form__input"
+          type="text"
+          name="name"
+          pattern="[A-Za-zА-Яа-яЁё]{1,}"
+          minlength="3"
+          maxlength="20"
+          required
+        />
+      </label>
+
+      <label class="form__label">
+        Email
+        <input
+          class="form__input"
+          type="email"
+          name="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          maxlength="50"
+          required
+        />
+      </label>
+
+      <button class="form__button" type="submit">Submit</button>
+    </form>
+    <script src="js/registration.js"></script>
+  </body>
+</html>
